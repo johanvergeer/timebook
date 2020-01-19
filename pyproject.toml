@@ -15,7 +15,8 @@ black = "^19.10b0"
 isort = "^4.3.21"
 
 [tool.poetry.plugins."console_scripts"]
-"t" = "timebook.cmdline:run_from_cmdline"
+"t" = "timebook.commands:timebook"
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
